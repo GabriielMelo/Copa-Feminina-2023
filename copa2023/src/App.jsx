@@ -1,5 +1,6 @@
 import './App.css'
 import Card from './components/Card'
+import GameTable from './components/GameTable'
 function App() {
 
   return (
@@ -8,6 +9,12 @@ function App() {
       <section className="cards">
         <Card />
       </section>
+
+      <h2>Tabela de Jogos</h2>
+      <section className='game_table'>
+        <GameTable />
+      </section>
+
     </>
   )
 }

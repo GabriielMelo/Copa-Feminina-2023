@@ -12,8 +12,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-h1{
+h1, h2{
   text-align: center;
   margin-block:1rem;
-  
 }
